@@ -11,3 +11,7 @@ npm start
 open http://localhost:3000
 ```
 
+## Features
+Animation by a mouse wheel on a counter.
+Increase count by click on a counter.
+
