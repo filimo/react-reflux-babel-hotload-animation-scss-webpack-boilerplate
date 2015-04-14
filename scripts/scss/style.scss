@@ -1,0 +1,18 @@
+@mixin test1() {
+    color: green;
+}
+
+h1 {
+    @mixin test1() {
+        color: red;
+    }
+
+    @include test1();
+}
+
+.counter {
+    display: inline-block;
+    top: 100px;
+    border: 1px solid;
+    margin-right: 5px;
+}
